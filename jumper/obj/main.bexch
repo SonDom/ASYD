@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\JumpStart\Desktop\lehre\asyd\labor\jumper\ada_library_v2\examples\MicroBit\jumper\jumper.gpr
+20200219145210 d52e525673082ccbf71ce9e74969810a
+C:\Users\JumpStart\Desktop\lehre\asyd\labor\jumper\ada_library_v2\boards\MicroBit\microbit_zfp.gpr
+20210305160812 13ab355e1dd8b3fec37bfe4ee4141a49
+[BOUND OBJECT FILES]
+C:\Users\JumpStart\Desktop\lehre\asyd\labor\jumper\ada_library_v2\examples\MicroBit\jumper\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\JumpStart\Desktop\lehre\asyd\labor\jumper\ada_library_v2\examples\MicroBit\jumper\obj\
+-LC:\Users\JumpStart\Desktop\lehre\asyd\labor\jumper\ada_library_v2\examples\MicroBit\jumper\obj\
+-LC:\Users\JumpStart\Desktop\lehre\asyd\labor\jumper\ada_library_v2\boards\MicroBit\obj\zfp_lib_Debug\
+-LC:\gnat\2020-arm-elf\arm-eabi\lib\gnat\zfp-cortex-m4f\adalib\
+-static
+-static-libgcc
+C:\gnat\2020-arm-elf\arm-eabi\lib\gnat\zfp-cortex-m4f\adalib\libgnat.a
