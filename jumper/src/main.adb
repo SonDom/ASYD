@@ -14,6 +14,7 @@ with Ada.Numerics.Elementary_Functions;
 use MicroBit;
 use MicroBit.IOs;
 
+-- added file handling
 
 procedure Main is
 
