@@ -9,6 +9,7 @@ with MicroBit.Accelerometer;
 with MicroBit.Console;
 with MicroBit.IOs;
 with MicroBit.Time;
+with Ada.Numerics.Elementary_Functions;
 
 use MicroBit;
 use MicroBit.IOs;
@@ -40,6 +41,15 @@ begin
                      "Y:" & Data.Y'Img & ASCII.HT &
                      "Z:" & Data.Z'Img);
 
+      -- Detect Freefall condition: S = sqrt((X^2)+(Y^2)+(Z^2)) == 0
+      -- Sample Freefall over some time
+      S_Sum := 0; -- to Do: Make S_Sum floating Point
+      for i in Integer range 1 .. 10 loop
+         S_Value := Ada.Numerics.Elementary_Functions.sqrt(Data.X'Img*Data.X'Img + Data.Y'Img*Data.Y'Img + Data.Y'Img*Data.Y'Img);
+         S_Sum := S_Sum + S_Value;
+      end loop;
+      if (S_Sum / 10) < 0.005 then -- Check if equation is really floating point
+      Console.Put_Line("Freefall detected"); 
       --  Clear the LED matrix
       Display.Clear;
 
