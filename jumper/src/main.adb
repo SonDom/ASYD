@@ -16,14 +16,18 @@ use MicroBit.IOs;
 
 procedure Main is
 
-   Data : LSM303.All_Axes_Data;
-   Value : MicroBit.IOs.Analog_Value;
+   package T_IO renames Ada.Text_IO;
+   Data      : LSM303.All_Axes_Data;
+   Value     : MicroBit.IOs.Analog_Value;
+   File_Name : constant String := "log.txt";
+   time_s    : Integer := 0;
+   F         : Ada.Text_IO.File_Type
 
 begin
-
+   T_IO.Create  (T_IO., Out_File, File_Name);
    Console.Put_Line ("Jumper - starting up ..");
 
-   loop
+   while time_s < 10_000 loop
 
       --  Read the accelerometer data
       Data := Accelerometer.Data;
@@ -32,6 +36,9 @@ begin
       Console.Put_Line ("X:" & Data.X'Img & ASCII.HT &
                         "Y:" & Data.Y'Img & ASCII.HT &
                         "Z:" & Data.Z'Img);
+         Put_Line (F, "X:" & Data.X'Img & ASCII.HT &
+                     "Y:" & Data.Y'Img & ASCII.HT &
+                     "Z:" & Data.Z'Img);
 
       --  Clear the LED matrix
       Display.Clear;
@@ -55,5 +62,7 @@ begin
       end if;
 
       Time.Sleep (50);
+      time_s := time_s + 50;
    end loop;
+   Close(F);
 end Main;
