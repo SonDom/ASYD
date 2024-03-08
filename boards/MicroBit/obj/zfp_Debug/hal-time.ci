@@ -1,0 +1,10 @@
+graph: { title: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\hal\src\hal-time.ads"
+class {
+  classname: "hal__time__delays"
+  label: "hal__time__delays\hal-time.ads:34:9"
+  virtuals: "1:hal__time__delay_microseconds\n
+             2:hal__time__delay_milliseconds\n
+             3:hal__time__delay_seconds\n
+             -1:hal__time___size"
+}
+}

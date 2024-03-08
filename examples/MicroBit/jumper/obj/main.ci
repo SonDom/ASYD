@@ -1,0 +1,41 @@
+graph: { title: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb"
+node: { title: "_ada_main" label: "Main\nC:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:17:1\n216 bytes (dynamic)" }
+node: { title: "microbit__console__put_line" label: "Put_Line\nC:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\boards\microbit\src\microbit-console.ads:43:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__console__put_line" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:25:11" }
+node: { title: "microbit__accelerometer__data" label: "Data\nC:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\boards\microbit\src\microbit-accelerometer.ads:38:13" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__accelerometer__data" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:30:28" }
+node: { title: "system__img_int__image_integer" label: "Image_Integer\nC:\gnat\2020-arm-elf\arm-eabi\lib\gnat\zfp-cortex-m4f\gnat\s-imgint.ads:39:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "system__img_int__image_integer" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:33:38" }
+edge: { sourcename: "_ada_main" targetname: "system__img_int__image_integer" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:34:38" }
+edge: { sourcename: "_ada_main" targetname: "system__img_int__image_integer" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:35:38" }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "memcpy" }
+edge: { sourcename: "_ada_main" targetname: "memcpy" }
+edge: { sourcename: "_ada_main" targetname: "memcpy" }
+edge: { sourcename: "_ada_main" targetname: "microbit__console__put_line" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:33:14" }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:42:27" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:42:43" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:42:35" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:42:59" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:42:51" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:42:51" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:43:25" }
+edge: { sourcename: "_ada_main" targetname: "microbit__console__put_line" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:46:17" }
+node: { title: "microbit__display__clear__2" label: "Clear\nC:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\boards\microbit\src\microbit-display.ads:42:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__clear__2" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:49:17" }
+node: { title: "microbit__display__display" label: "Display\nC:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\boards\microbit\src\microbit-display.ads:45:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__display" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:54:17" }
+edge: { sourcename: "_ada_main" targetname: "microbit__display__display" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:56:17" }
+node: { title: "microbit__ios__analog__2" label: "Analog\nC:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\boards\microbit\src\microbit-ios.ads:67:13" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__analog__2" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:60:28" }
+edge: { sourcename: "_ada_main" targetname: "system__img_int__image_integer" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:61:43" }
+edge: { sourcename: "_ada_main" targetname: "memcpy" }
+edge: { sourcename: "_ada_main" targetname: "microbit__console__put_line" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:61:14" }
+node: { title: "microbit__ios__set" label: "Set\nC:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\boards\microbit\src\microbit-ios.ads:52:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:65:22" }
+edge: { sourcename: "_ada_main" targetname: "microbit__ios__set" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:67:22" }
+node: { title: "microbit__time__delay_ms" label: "Delay_Ms\nC:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\boards\microbit\src\microbit-time.ads:41:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "microbit__time__delay_ms" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:70:11" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_last_chance_handler" label: "C:\Users\domin\Documents\Privat\Studium\Sem_10\ASYD\Safety\Aufgaben\ASYD\examples\MicroBit\jumper\src\main.adb:71:24" }
+}
